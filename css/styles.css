@@ -1,5 +1,44 @@
-/* Use this file to use your own styles*/
+.language-level .language-progress {
+    background-color: #A8C3BC !important; /* Change to your desired color */
+}
 
+.language-level  {
+    background-color: #FFFAFA !important; /* Change to your desired color */
+}
+.language-level {
+    border: 4px solid #272757; /* Change to your desired border color */
+    border-color: #272757;
+	border-radius: 0px;
+} /* Optional: Add rounded corners */
+
+
+ 
+
+
+
+.header-experience{font-style: Italic;
+font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif"; 
+color: #636B2F}/* Use this file to use your own styles*/
+
+.header-education{font-style: italic;
+font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif"; 
+color: #636B2F}
+
+.header-contact{font-style: italic; 
+font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+color: #560591}
+
+.header-languages{font-style: italic;
+font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+color: #560591}
+
+.header-otherskills{font-style: italic; 
+font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif"; 
+color: #560591}
+
+.header-interests{font-style: italic; 
+font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+color: #560591}
 /* Import declaration to use Google Fonts - check https://fonts.google.com/ for details */
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
@@ -11,6 +50,8 @@ body {
 	background-color: #f8f8fc;
 }
 
+
+}
 /* Styles for custom classes in the document. (There are more, try to find them out!) */
 
 .resume-header {
@@ -22,8 +63,7 @@ body {
 }
 
 .resume-aside {
-	background-color: #fff0e0;
-}
+	background-color: #D3D3FF;}
 
 /* Styles for lists in the document */
 
